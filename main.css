@@ -1,0 +1,154 @@
+body {
+  height: 100vh;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoEezbhsDp8gd1JW471wna19sgntwkR65rdqygXibkP0f9CAD-gwZAhx8yTdgF4Kr5jJ0&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  padding: 50px 0;
+}
+.container .dogs {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  max-width: 700px;
+  /*블록 요소에 가로 사이즈가 있는 상태에서 margin값의 좌우가 auto일 경우 요소는 가운데 정렬이 됨 */
+  margin: auto; /*0 auto*/
+  padding: 40px 20px;
+}
+.container .dogs .dog {
+  width: 80px;
+  height: 84px;
+  margin: 4px; 
+  border: 3px solid #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color:#798E23;
+  overflow: hidden;
+  transform: skewX(-14deg);
+  transition: 
+    transform .1s,
+    background-color .6s;
+}
+.container .dogs .dog:hover {
+  background-color: #3B8CD7;
+  transform: skewX(-14deg) scale(1.3);
+  z-index: 1; 
+}
+
+.container .dogs .dog .image {
+  width: 110%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .dogs .dog:nth-child(1) .image {
+  transform: skewX(14deg) translateX(-2px);
+  background-size: 100px;
+  background-image: url("https://highlandcanine.com/wp-content/uploads/2020/12/iStock-926735822.jpg");
+
+}
+.container .dogs .dog:nth-child(2) .image {
+  transform: skewX(14deg) translateX(-1px);
+  background-size: 90px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9MlTF8YRS0Cci74fs7ZZKNrzTxNnjhOSnY9-AlNUIZPYoscKvAb5BVm-zdegu5px_7W0&usqp=CAU");
+
+}
+.container .dogs .dog:nth-child(3) .image {
+  transform: skewX(14deg) translateY(5px);
+  background-size: 70px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwXlUMacPjUXp-cDb_pQ-Gs4pTB3y4dqmN0eHSHj3gR5b9HSQ8qDY2xttOH3ALn5IwSzE&usqp=CAU");
+}
+.container .dogs .dog:nth-child(4) .image {
+  transform: skewX(14deg) translateX(-1px);
+  background-size: 100px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDaxcMvqplJGpdMIaamcqtcfs7Zg7Y0h3pUIqSBO9s-KP9xbt6GTNmNkKj7MwYmHuRIcQ&usqp=CAU");
+}
+.container .dogs .dog:nth-child(5) .image {
+  transform: skewX(14deg) translateX(-1px) translateY(4px);
+  background-size: 90px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTosvf9iWftbS5edWP7pdLIxGlbA5kShdLa3GrfABHrC0fePZ4tMc7isrzzqb5HiuiOV1w&usqp=CAU");
+}
+.container .dogs .dog:nth-child(6) .image {
+  transform: skewX(14deg) translateX(-1px);
+  background-size: 100px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy2400-vZYoBCRaMH-qylPbkV8t3b_ppnJKJfcNRlQm2n4Kvc2JcpsfLFX0GUnjKXqD5Q&usqp=CAU");
+}
+.container .dogs .dog:nth-child(7) .image {
+  transform: skewX(14deg) translateX(-1px);
+  background-size: 100px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp64a8Rg9MwH3N3nEZoNgO0zsG2wpDDfx-5A0c6e6L6izb_ZZsRMjtIHqFuroou2qsEXY&usqp=CAU");
+}
+.container .dogs .dog:nth-child(8) .image {
+  transform: skewX(14deg) translateX(-1px);
+  background-size: 110px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS37BY2vBUXeAug92nLehn2HQCcRXTJVfNy1A&usqp=CAU");
+}
+.container .dogs .dog:nth-child(9) .image {
+  transform: skewX(14deg) translateX(-1px);
+  background-size: 130px;
+  background-image: url("https://vetwork.co/galaxy/wp-content/uploads/siberian-husky-1.jpg");
+}
+.container .dogs .dog:nth-child(10) .image {
+  transform: skewX(14deg) translateX(6px) translateY(-2px);
+  background-size: 130px;
+  background-image: url("https://www.mydog.pet/wp-content/uploads/2020/12/Rottweiler-dog.jpg");
+}
+.container .dogs .dog:nth-child(11) .image {
+  transform: skewX(14deg) translateX(-2px);
+  background-size: 100px;
+  background-image: url("https://highlandcanine.com/wp-content/uploads/2020/12/iStock-926735822.jpg");
+
+}
+
+.container .dogs .dog:nth-child(12) .image {
+  transform: skewX(14deg) translateX(-1px) translateY(5px);
+  background-size: 80px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5d/Italian_Greyhound_standing_gray_%28cropped%29.jpg");
+
+}
+
+.container .dogs .dog:nth-child(13) .image {
+  transform: skewX(14deg) translateX(-4px) translateY(5px);
+  background-size: 130px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxfGvC3cO1DeKEHh38-l8IsZqrqViYOpMh3HVJIAq0pWOHZbkC3tosMb4jFxMw0CvjKAg&usqp=CAU");
+}
+
+.container .dogs .dog:nth-child(14) .image {
+  transform: skewX(14deg) translateX(-10px);
+  background-size: 100px;
+  background-image: url("https://www.petfirst.com/wp-content/uploads/2018/03/Breed-Hero-Cavalier-King-Charles-Spaniel.jpg");
+}
+
+.container .dogs .dog:nth-child(15) .image {
+  transform: skewX(14deg) translateX(5px);
+  background-size: 120px;
+  background-image: url("https://i.pinimg.com/originals/ca/f9/a8/caf9a8c192cdbdd2b6d17efabc0b1260.jpg");
+}
+
+.container .dogs .dog:nth-child(16) .image {
+  transform: skewX(14deg) translateX(-4px);
+  background-size: 60px;
+  background-image: url("https://vetstreet.brightspotcdn.com/dims4/default/ef64b69/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Ff4%2F8db2709e8911e0a2380050568d634f%2Ffile%2FDoberman-4-645mk062111.jpg");
+}
+
+.container .dogs .dog:nth-child(17) .image {
+  transform: skewX(14deg) translateX(-1px);
+  background-size: 120px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/12/ThreeTimeAKCGoldWinnerPembrookeWelshCorgi.jpg");
+}
+
+.container .dogs .dog:nth-child(18) .image {
+  transform: skewX(14deg) translateX(3px) translateY(2px);
+  background-size: 130px;
+  background-image: url("https://cdn.orvis.com/images/DBS_Bichon_1280.jpg");
+}
+.container .logo {
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container .logo img {
+  width: 100%;
+}
