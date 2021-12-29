@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   height: 100vh;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoEezbhsDp8gd1JW471wna19sgntwkR65rdqygXibkP0f9CAD-gwZAhx8yTdgF4Kr5jJ0&usqp=CAU");
@@ -5,38 +6,37 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .container {
   padding: 50px 0;
 }
 .container .dogs {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
   max-width: 700px;
   /*블록 요소에 가로 사이즈가 있는 상태에서 margin값의 좌우가 auto일 경우 요소는 가운데 정렬이 됨 */
-  margin: auto; /*0 auto*/
+  margin: auto;
+  /*0 auto*/
   padding: 40px 20px;
 }
 .container .dogs .dog {
   width: 80px;
   height: 84px;
-  margin: 4px; 
+  margin: 4px;
   border: 3px solid #fff;
   border-radius: 10px;
   box-sizing: border-box;
-  background-color:#798E23;
+  background-color: #798E23;
   overflow: hidden;
   transform: skewX(-14deg);
-  transition: 
-    transform .1s,
-    background-color .6s;
+  transition: transform 0.1s, background-color 0.6s;
 }
 .container .dogs .dog:hover {
   background-color: #3B8CD7;
   transform: skewX(-14deg) scale(1.3);
-  z-index: 1; 
+  z-index: 1;
 }
-
 .container .dogs .dog .image {
   width: 110%;
   height: 100%;
@@ -47,13 +47,11 @@ body {
   transform: skewX(14deg) translateX(-2px);
   background-size: 100px;
   background-image: url("https://highlandcanine.com/wp-content/uploads/2020/12/iStock-926735822.jpg");
-
 }
 .container .dogs .dog:nth-child(2) .image {
   transform: skewX(14deg) translateX(-1px);
   background-size: 90px;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9MlTF8YRS0Cci74fs7ZZKNrzTxNnjhOSnY9-AlNUIZPYoscKvAb5BVm-zdegu5px_7W0&usqp=CAU");
-
 }
 .container .dogs .dog:nth-child(3) .image {
   transform: skewX(14deg) translateY(5px);
@@ -99,56 +97,49 @@ body {
   transform: skewX(14deg) translateX(-2px);
   background-size: 100px;
   background-image: url("https://highlandcanine.com/wp-content/uploads/2020/12/iStock-926735822.jpg");
-
 }
-
 .container .dogs .dog:nth-child(12) .image {
   transform: skewX(14deg) translateX(-1px) translateY(5px);
   background-size: 80px;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5d/Italian_Greyhound_standing_gray_%28cropped%29.jpg");
-
 }
-
 .container .dogs .dog:nth-child(13) .image {
   transform: skewX(14deg) translateX(-4px) translateY(5px);
   background-size: 130px;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxfGvC3cO1DeKEHh38-l8IsZqrqViYOpMh3HVJIAq0pWOHZbkC3tosMb4jFxMw0CvjKAg&usqp=CAU");
 }
-
 .container .dogs .dog:nth-child(14) .image {
   transform: skewX(14deg) translateX(-10px);
   background-size: 100px;
   background-image: url("https://www.petfirst.com/wp-content/uploads/2018/03/Breed-Hero-Cavalier-King-Charles-Spaniel.jpg");
 }
-
 .container .dogs .dog:nth-child(15) .image {
   transform: skewX(14deg) translateX(5px);
   background-size: 120px;
   background-image: url("https://i.pinimg.com/originals/ca/f9/a8/caf9a8c192cdbdd2b6d17efabc0b1260.jpg");
 }
-
 .container .dogs .dog:nth-child(16) .image {
   transform: skewX(14deg) translateX(-4px);
   background-size: 60px;
   background-image: url("https://vetstreet.brightspotcdn.com/dims4/default/ef64b69/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Ff4%2F8db2709e8911e0a2380050568d634f%2Ffile%2FDoberman-4-645mk062111.jpg");
 }
-
 .container .dogs .dog:nth-child(17) .image {
   transform: skewX(14deg) translateX(-1px);
   background-size: 120px;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/12/ThreeTimeAKCGoldWinnerPembrookeWelshCorgi.jpg");
 }
-
 .container .dogs .dog:nth-child(18) .image {
   transform: skewX(14deg) translateX(3px) translateY(2px);
   background-size: 130px;
   background-image: url("https://cdn.orvis.com/images/DBS_Bichon_1280.jpg");
 }
 .container .logo {
-  max-width: 100px;
+  max-width: 300px;
   margin: 0 auto;
   padding: 0 20px;
 }
 .container .logo img {
   width: 100%;
 }
+
+/*# sourceMappingURL=/main.39afc03c.css.map */

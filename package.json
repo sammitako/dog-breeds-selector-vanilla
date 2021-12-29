@@ -1,0 +1,25 @@
+{
+  "name": "dog-breeds-selector-vanilla",
+  "version": "1.0.0",
+  "description": "강아지 품종 선택 화면 예제",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammitako/dog-breeds-selector-vanilla.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammitako/dog-breeds-selector-vanilla/issues"
+  },
+  "homepage": "https://github.com/sammitako/dog-breeds-selector-vanilla#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.45.1"
+  }
+}
